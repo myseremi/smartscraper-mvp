@@ -224,6 +224,102 @@ SITES = {
             }
         }
     },
+    "purina_israel": {
+        "categories": {
+            "dogs": {
+                "url": "https://www.purina.co.il/dog/dog-food",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint, div.adimoWidget, a[class*=adimo]",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.co.il/dog/dog-food?page={page}",
+                "pagination_start_page": 0
+            },
+            "cats": {
+                "url": "https://www.purina.co.il/cat/cat-food",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint, div.adimoWidget, a[class*=adimo]",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.co.il/cat/cat-food?page={page}",
+                "pagination_start_page": 0
+            }
+        }
+    },
+    "purina_serbia": {
+        "categories": {
+            "dogs": {
+                "url": "https://www.purina.rs/pas/hrana-za-pse",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.rs/pas/hrana-za-pse?page={page}",
+                "pagination_start_page": 0
+            },
+            "cats": {
+                "url": "https://www.purina.rs/macke/hrana-za-macke",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.rs/macke/hrana-za-macke?page={page}",
+                "pagination_start_page": 0
+            }
+        }
+    },
+    "purina_norway": {
+        "categories": {
+            "dogs": {
+                "url": "https://www.purina.no/hund/hundemat",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.no/hund/hundemat?page={page}",
+                "pagination_start_page": 0
+            },
+            "cats": {
+                "url": "https://www.purina.no/katt/kattemat",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "button.adimo-multi-touchpoint",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.no/katt/kattemat?page={page}",
+                "pagination_start_page": 0
+            }
+        }
+    },
+    "purina_mena": {
+        "categories": {
+            "dogs": {
+                "url": "https://www.purina-arabia.com/dog/dog-food",
+                "type": "listing",
+                "product_container_selector": ".views-view-bs4-grid > .row > *",
+                "title_selector": "h3",
+                "buy_button_selector": "div.adimoWidget",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina-arabia.com/dog/dog-food?page={page}",
+                "pagination_start_page": 0
+            },
+            "cats": {
+                "url": "https://www.purina-arabia.com/cat/cat-food",
+                "type": "listing",
+                "product_container_selector": ".views-view-bs4-grid > .row > *",
+                "title_selector": "h3",
+                "buy_button_selector": "div.adimoWidget",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina-arabia.com/cat/cat-food?page={page}",
+                "pagination_start_page": 0
+            }
+        }
+    }
 }
 
 def extract_listing(page, config, debug=False):
