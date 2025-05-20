@@ -404,8 +404,8 @@ def run_scraper(site_key, subcategory_key=None, debug=False):
         return all_results, filename
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Smart Scraper MVP", layout="centered")
-st.title("🕷️ Smart Product Scraper")
+st.set_page_config(page_title="Smart Brand Scraper MVP", layout="centered")
+st.title("🕷️ Smart Brand Scraper")
 
 site_choice = st.selectbox("Choose a site to scrape:", list(SITES.keys()))
 
