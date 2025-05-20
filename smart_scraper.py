@@ -31,6 +31,30 @@ SITES = {
                 "pagination_start_page": 0
             }
         }
+    },
+    "purina_czec_republic": {
+        "categories": {
+            "dogs": {
+                "url": "https://www.purina.cz/pes/krmivo-pro-psy",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "a[class*=adimo]",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.cz/pes/krmivo-pro-psy?page={page}",
+                "pagination_start_page": 0
+            },
+            "cats": {
+                "url": "https://www.purina.cz/kocka/krmivo-pro-kocky",
+                "type": "listing",
+                "product_container_selector": "div.col-12.col-md-6.col-lg-4.col-xl-3",
+                "title_selector": ".dsu-product__title > h3",
+                "buy_button_selector": "a[class*=adimo]",
+                "pagination_last_selector": ".view-header li.pager__item--last",
+                "pagination_url_template": "https://www.purina.cz/kocka/krmivo-pro-kocky?page={page}",
+                "pagination_start_page": 0
+            }
+        }
     }
 }
 

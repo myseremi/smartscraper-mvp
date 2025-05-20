@@ -1,4 +1,7 @@
 streamlit
 playwright
-beautifulsoup4
+bs4
 pandas
+# Streamlit Cloud setup
+# This will run after requirements.txt installs
+# (useful for installing browsers)
